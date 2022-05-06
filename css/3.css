@@ -1,0 +1,2547 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    border: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 28px;
+    color: #000000;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+input:focus {
+    outline: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.container {
+    max-width: 1084px;
+}
+
+/* -----Header------- */
+
+header {
+    min-height: 94px;
+    display: flex;
+    align-items: center;
+    background: rgb(89, 127, 253);
+    background: linear-gradient(90deg, rgba(89, 127, 253, 1) 5%, rgba(110, 103, 253, 1) 10%, rgba(182, 28, 253, 1) 23%, rgba(230, 0, 249, 1) 36%, rgba(250, 38, 192, 1) 64%, rgba(255, 103, 123, 1) 85%, rgba(255, 144, 83, 1) 97%);
+    transition: all 0.5s;
+}
+
+header .navbar {
+    padding: 0.5rem 0;
+}
+
+header.scrolled {
+    min-height: 55px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+}
+
+header .menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+header .menu-icon span {
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    margin: 6px 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* -----End of Header------- */
+
+/* -----Banner------ */
+
+section.banner {
+    background: url(../images/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 670px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner .banner-content h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    color: #508afd;
+}
+
+.banner .banner-content h1 span {
+    color: #f009e7;
+}
+
+.banner .banner-content h1 i {
+    color: #ef07e9;
+}
+
+.banner .banner-content h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #508afd;
+}
+
+.banner .banner-content p {
+    color: #000000;
+    opacity: 0.4;
+    padding-right: 475px;
+    margin-bottom: 70px;
+    font-weight: 500;
+}
+
+.banner .banner-content a {
+    display: inline-block;
+    background: #363636;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 1px solid #363636;
+    transition: all 0.5s;
+    margin-bottom: 104px;
+}
+
+.banner .banner-content a:hover {
+    background: #ffffff;
+    color: #363636;
+}
+
+/* -----End of Banner------ */
+
+/* -----index about-------- */
+
+.index-about .container {
+    padding: 0;
+    position: relative;
+}
+
+.index-about .container ul {
+    margin: 0 16px;
+    border: 1px solid #e2e2e2;
+}
+
+.index-about .container ul li:nth-child(1) {
+    padding: 48px 25px 48px 46px;
+}
+
+.index-about .container ul li:nth-child(2) {
+    padding: 48px 46px 48px 26px;
+}
+
+.index-about ul li p {
+    color: #000000;
+    opacity: 0.4;
+    font-weight: 500;
+}
+
+.index-about ul li h2 {
+    color: #b31ffd;
+    text-transform: uppercase;
+}
+
+.index-about .container figure {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+/* -----End of index about----- */
+
+/* -----index friendly sec------ */
+
+.index-friendly .icon i {
+    color: #dddddd;
+}
+
+.index-friendly .container {
+    padding: 0 16px;
+}
+
+.index-friendly ul li {
+    display: inline-block;
+}
+
+.index-friendly ul li h2 {
+    text-transform: uppercase;
+    color: #508afd;
+    font-weight: 600;
+}
+
+.index-friendly ul li h4 {
+    color: #959595;
+    text-transform: uppercase;
+}
+
+.index-friendly .container ul {
+    position: relative;
+    padding: 93px 0 67px 0;
+}
+
+.index-friendly .container ul img {
+    position: absolute;
+}
+
+.index-friendly .container ul:first-child {
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.index-friendly .container ul:first-child img:nth-child(3) {
+    transform: rotateZ(-90deg);
+    top: 50%;
+    right: -11px;
+    margin-top: -11px;
+}
+
+.index-friendly .container ul:first-child img:last-child {
+    transform: rotateZ(0deg);
+    bottom: -11px;
+    right: 50%;
+    margin-right: -11px;
+}
+
+.index-friendly .container ul:nth-child(2) {
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 55px;
+    padding-right: 21px;
+}
+
+.index-friendly .container ul:nth-child(2) img:nth-child(3) {
+    transform: rotateZ(-90deg);
+    top: 50%;
+    left: -11px;
+    margin-top: -11px;
+}
+
+.index-friendly .container ul:nth-child(2) img:last-child {
+    transform: rotateZ(180deg);
+    bottom: -11px;
+    left: 50%;
+    margin-left: -11px;
+}
+
+.index-friendly .container ul:nth-child(2) .icon {
+    float: right;
+}
+
+.index-friendly .container ul:nth-child(3) {
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.index-friendly .container ul:nth-child(3) img:nth-child(3) {
+    transform: rotateZ(-90deg);
+    top: 50%;
+    right: -11px;
+    margin-top: -11px;
+}
+
+.index-friendly .container ul:nth-child(3) img:last-child {
+    transform: rotateZ(0deg);
+    bottom: -11px;
+    right: 50%;
+    margin-right: -11px;
+}
+
+.index-friendly .container ul:last-child {
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 55px;
+    padding-right: 21px;
+}
+
+.index-friendly .container ul:last-child img:nth-child(3) {
+    transform: rotateZ(-90deg);
+    top: 50%;
+    left: -11px;
+    margin-top: -11px;
+}
+
+.index-friendly .container ul:last-child img:last-child {
+    transform: rotateZ(180deg);
+    bottom: -11px;
+    left: 50%;
+    margin-left: -11px;
+}
+
+.index-friendly .container ul:last-child .icon {
+    float: right;
+}
+
+.index-friendly ul:first-child li:nth-child(2) {
+    margin-left: 9px;
+}
+
+.index-friendly ul:nth-child(3) li:nth-child(2) {
+    margin-left: 9px;
+}
+
+/* -----End of Index friendly sec------ */
+
+/* -----Index portfolio section-------- */
+
+section.index-portfolio {
+    float: left;
+    width: 100%;
+}
+
+.index-portfolio .indexportfolio-heading h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    color: #959595;
+}
+
+.index-portfolio .indexportfolio-heading h2 span {
+    color: #f009e7;
+}
+
+.index-portfolio .indexportfolio-heading h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #959595;
+}
+
+section.index-portfolio .owl-item {
+    width: 1054px !important;
+}
+
+section.index-portfolio .owl-item:first-child {
+    margin-left: -20px;
+}
+
+.index-portfolio .slide ul {
+    float: left;
+    width: 100%;
+}
+
+.index-portfolio .slide ul li {
+    width: 306px;
+    height: 300px;
+    float: left;
+    transition: all 0.5s;
+}
+
+.index-portfolio .slide ul li a {
+    height: 100%;
+}
+
+.index-portfolio .slide ul li a .portfolio-img {
+    height: 100%;
+}
+
+.index-portfolio .slide ul li a .portfolio-img img {
+    height: 100%;
+}
+
+.index-portfolio .slide ul li.list {
+    width: 442px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.index-portfolio .row {
+    margin: 0;
+}
+
+.index-portfolio .row .col-12 {
+    padding: 0;
+}
+
+.index-portfolio .row .col-12 .portfolio-img {
+    margin: 0;
+    position: relative;
+}
+
+.index-portfolio .slide ul li .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.8s;
+    background: linear-gradient(90deg, rgba(89, 127, 253, 0) 5%, rgba(110, 103, 253, 0) 10%, rgba(182, 28, 253, 0) 23%, rgba(230, 0, 249, 0) 36%, rgba(250, 38, 192, 0) 64%, rgba(255, 103, 123, 0) 85%, rgba(255, 144, 83, 0) 97%);
+}
+
+.index-portfolio .slide ul li:hover .overlay {
+    background: linear-gradient(90deg, rgba(89, 127, 253, 0.8) 5%, rgba(110, 103, 253, .8) 10%, rgba(182, 28, 253, .8) 23%, rgba(230, 0, 249, .8) 36%, rgba(250, 38, 192, .8) 64%, rgba(255, 103, 123, .8) 85%, rgba(255, 144, 83, .8) 97%);
+}
+
+.index-portfolio .slide ul li .overlay > span {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.index-portfolio .slide ul li .overlay > span span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 70px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.index-portfolio .slide ul li:hover .overlay > span span {
+    visibility: visible;
+    opacity: 1;
+}
+
+.index-portfolio .slide ul li a:hover {
+    color: #fff;
+}
+
+/* ------End of Index Portfolio section----- */
+
+/* ------Index Subscription section--------- */
+
+section.index-subscription {
+    width: 100%;
+    background: url(../images/subscription-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.index-subscription ul li input {
+    height: 46px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #000000;
+    font-style: italic;
+    background: #fff;
+    border: none;
+}
+
+.index-subscription ul li input::placeholder {
+    color: #cacaca;
+    font-size: 14px;
+}
+
+.index-subscription ul li button {
+    height: 46px;
+    background: #000000;
+    color: #fff;
+    border: 1px solid #000000;
+    transition: all 0.5s;
+    font-size: 14px;
+}
+
+.index-subscription ul li button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+section.index-subscription h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+section.index-subscription p {
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* ------End of Index Subscription section----- */
+
+/* ------Index blog section-------- */
+
+section.index-blog {
+    width: 100%;
+    float: left;
+    padding-top: 92px;
+    padding-bottom: 109px;
+}
+
+section.index-blog ul li {
+    padding: 0 25px;
+}
+
+section.index-blog h2 {
+    font-size: 47px;
+    line-height: 45px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #508afd;
+    font-weight: 600;
+}
+
+section.index-blog h5 {
+    font-size: 24px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #508afd;
+    font-weight: 500;
+    margin-bottom: 43px;
+}
+
+section.index-blog h2 span {
+    color: #f009e7;
+}
+
+section.index-blog ul {
+    margin: 0 -25px;
+}
+
+section.index-blog ul li a:last-child {
+    background: #f009e7;
+    text-transform: capitalize;
+    padding: 8px 0 7px 0;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 91px;
+    text-align: center;
+    border: 1px solid #f009e7;
+    transition: all 0.5s;
+}
+
+section.index-blog ul li a:last-child:hover {
+    text-decoration: none;
+    color: #f009e7;
+    background: #fff;
+    border: 1px solid #f009e7;
+}
+
+section.index-blog ul li h6 {
+    font-size: 23px;
+    line-height: 32px;
+    color: #363636;
+    font-weight: 500;
+    margin-bottom: 21px;
+}
+
+section.index-blog ul li img {
+    transition: all 0.4s;
+}
+
+section.index-blog ul li figure {
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+section.index-blog ul li figure img:hover {
+    transform: scale(1.2);
+    opacity: 0.3;
+}
+
+/* ------End of Index blog section----- */
+
+/* ------Footer------- */
+
+footer {
+    float: left;
+    width: 100%;
+    background: url(../images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    padding-bottom: 43px;
+}
+
+footer span {
+    display: block;
+    font-size: 10px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+}
+
+footer span a {
+    font-size: 10px;
+}
+
+footer ul li.col-md-9 a {
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+
+footer ul li h5 {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+footer .footer-brand {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+
+/* -----End of Footer---- */
+
+/* -----About page------- */
+
+section.about-page {
+    padding-top: 161px;
+    padding-bottom: 200px;
+}
+
+section.about-page h2 {
+    font-size: 31px;
+    line-height: 45px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #508afd;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section.about-page ul li p {
+    font-size: 14px;
+    line-height: 27px;
+    color: #000000;
+    opacity: 0.4;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+section.about-page ul li figure {
+    margin-bottom: 85px;
+}
+
+/* -----End of About Page------ */
+
+/* -----Contact Page----- */
+
+section.contact-page {
+    background: url(../images/contactbg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 167px;
+    background-position: -100px 93px;
+}
+
+section.contact-page input {
+    height: 46px;
+    padding-left: 15px;
+    font-size: 13px;
+    color: #000000;
+    font-style: italic;
+    border: 1px solid #dadada;
+    margin-bottom: 25px;
+}
+
+section.contact-page textarea {
+    height: 186px;
+    padding-left: 15px;
+    font-size: 13px;
+    color: #000000;
+    font-style: italic;
+    border: 1px solid #dadada;
+    margin-bottom: 18px;
+    padding-top: 15px;
+}
+
+section.contact-page input::placeholder {
+    color: #000000;
+    font-weight: 100;
+}
+
+section.contact-page .r1 {
+    margin-top: 100px;
+}
+
+section.contact-page textarea::placeholder {
+    color: #000000;
+    font-weight: 100;
+}
+
+section.contact-page button {
+    display: inline-block;
+    min-width: 254px;
+    background: linear-gradient(90deg, rgba(89, 127, 253, 1) 5%, rgba(110, 103, 253, 1) 10%, rgba(182, 28, 253, 1) 23%, rgba(230, 0, 249, 1) 36%, rgba(250, 38, 192, 1) 64%, rgba(255, 103, 123, 1) 85%, rgba(255, 144, 83, 1) 97%);
+    padding: 18px 0 16px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+section.contact-page h6 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: 500;
+    padding-right: 183px;
+    margin-top: -11px;
+    margin-bottom: 27px;
+}
+
+section.contact-page span {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: 500;
+}
+
+section.contact-page .contact-page-info {
+    padding-left: 37px;
+}
+
+section.contact-page .contact-page-info h4:nth-child(3) {
+    font-size: 26px;
+    font-weight: 500;
+    color: #000000;
+}
+
+section.contact-page .contact-page-info a {
+    color: #000;
+    font-weight: 500;
+}
+
+section.contact-page .contact-page-info h5 {
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+section.contact-page .contact-page-info h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+}
+
+section.contact-page .contact-page-info h4:nth-child(4) {
+    margin-bottom: 28px;
+}
+
+/* -----End of Contact Page----- */
+
+/* -----Scroll Top-------- */
+
+.scrolltop-btn {
+    background: #272525ed;
+    height: 60px;
+    width: 60px;
+    transition: all 0.5s;
+    position: fixed;
+    right: 60px;
+    bottom: 100px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+.scrolltop-btn:hover {
+    transform: translateY(-8px);
+}
+
+.scrolltop-btn .fa {
+    font-size: 30px;
+    color: #fff;
+    margin-top: -2px;
+}
+
+/* -----End of Scroll Top---- */
+
+/* -----Blog Single page----- */
+
+.blog-single ul li figure {
+    height: 720px;
+    padding-top: 47px;
+    margin-bottom: 56px;
+}
+
+.blog-single ul li figure img {
+    height: 100%;
+}
+
+section.blog-single span {
+    display: inline-block;
+}
+
+section.blog-single p:nth-child(5) span {
+    color: rgb(194, 53, 53);
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+section.blog-single p:nth-child(10) span {
+    color: rgb(194, 53, 53);
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+section.blog-single .share-icon p {
+    display: inline-block;
+}
+
+section.blog-single .share-icon div.social-icons {
+    display: inline-block;
+    float: right;
+}
+
+section.blog-single .share-icon div.social-icons span {
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.3;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+
+section.blog-page p {
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.4;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 39px;
+}
+
+section.blog-single p {
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    color: #636363;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+section.blog-single p:nth-child(5) {
+    margin-bottom: 27px;
+}
+
+section.blog-single p:nth-child(6) {
+    margin-bottom: 27px;
+}
+
+section.blog-single p:nth-child(10) {
+    margin-bottom: 27px;
+}
+
+section.blog-single p:nth-child(11) {
+    margin-bottom: 27px;
+}
+
+section.blog-single .blogsingle-inner-para {
+    border: 1px solid #c7c7c7;
+    padding: 55px 38px 33px 45px;
+    width: 840px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+
+section.blog-single .blogsingle-inner-para p {
+    font-size: 24px;
+    line-height: 36px;
+    color: #636363;
+    font-weight: 500;
+    font-style: italic;
+}
+
+section.blog-single .share-icon {
+    border: 1px solid #e5e5e5;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+
+section.blog-single .share-icon p {
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    font-weight: 300;
+    margin: 0;
+}
+
+section.blog-single .share-icon .social-icons a {
+    display: inline-block;
+    min-width: 100px;
+    min-height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+section.blog-single .share-icon .social-icons a:nth-child(2) {
+    background: #365284;
+}
+
+section.blog-single .share-icon .social-icons a:nth-child(3) {
+    background: #2bb4e8;
+}
+
+section.blog-single .share-icon .social-icons a:nth-child(4) {
+    background: #d0624b;
+}
+
+section.blog-single .share-icon .social-icons a:last-child {
+    background: #cf4c52;
+}
+
+section.blog-single h3 {
+    font-size: 50px;
+    line-height: 59px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+section.contact-page .contact-title {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+section.contact-page .contact-title h2 {
+    font-size: 47px;
+    line-height: 45px;
+    letter-spacing: 0.8px;
+    color: #508afd;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 1054px;
+    margin: 0 auto;
+}
+
+section.blog-page {
+    border-top: 1px solid #000000;
+    padding-top: 53px;
+}
+
+section.blog-page h6 {
+    font-size: 31px;
+    line-height: 24px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 43px;
+}
+
+section.blog-single {
+    padding-bottom: 48px;
+}
+
+section.blog-page ul li h6 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-transform: initial;
+}
+
+/* -----End of Blog Single page----- */
+
+/* -----our blog page----- */
+
+section.ourblog-page {
+    border: 0;
+    padding-top: 19px;
+}
+
+section.ourblog-page .row {
+    margin-bottom: 63px;
+}
+
+section.ourblog-page .pagination a {
+    display: inline-block;
+    width: 46px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    background: #fff;
+    border: 1px solid #b9d0ff;
+    margin-right: 11px;
+}
+
+section.ourblog-page .pagination a:first-child {
+    color: #fff;
+    background: #439afd;
+}
+
+/* -----End of our blog page------ */
+
+/* -----services page------ */
+
+section.services-page ul li figure {
+    margin-bottom: 48px;
+    height: 372px;
+}
+
+section.services-page h2 {
+    margin-bottom: 50px;
+}
+
+section.services-page ul li h4 {
+    font-size: 27px;
+    margin-bottom: 36px;
+    line-height: 31px;
+    color: #000;
+    opacity: 0.4;
+    text-transform: capitalize
+}
+
+section.services-page ul li .services-info {
+    padding-left: 14px;
+}
+
+section.services-page ul li p {
+    margin-bottom: 33px;
+    font-size: 15px;
+    line-height: 31px;
+}
+
+section.services-page .container ul:nth-child(2) {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 19px;
+}
+
+section.services-page ul:last-child {
+    border-bottom: none;
+    margin-top: 76px;
+}
+
+section.services-page {
+    padding-bottom: 100px;
+}
+
+/* -----End of services page----- */
+
+/* -----portfolio page------ */
+
+section.portfolio-page {
+    padding-top: 167px;
+}
+
+section.portfolio-page div.row {
+    margin-top: 57px;
+    margin-bottom: 67px;
+}
+
+section.portfolio-page .slide ul li .overlay span {
+    color: #fff;
+}
+
+section.portfolio-page .portfolio-button {
+    text-align: center;
+}
+
+section.portfolio-page button {
+    display: inline-block;
+    background: #c2c2c2;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    min-width: 144px;
+    text-align: center;
+    margin-bottom: 150px;
+    cursor: auto;
+}
+
+/* -----End of portfolio page----- */
+
+@media(max-width:1920px)and (min-width:1840px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 52px;
+        line-height: 45px;
+        margin-bottom: 15px;
+        letter-spacing: 1.4px;
+    }
+
+    .banner .banner-content h5 {
+        font-size: 26px;
+        margin-bottom: 29px;
+        letter-spacing: 1.5px;
+    }
+
+    .banner .banner-content p {
+        font-size: 17px;
+        line-height: 34px;
+    }
+
+    .banner .banner-content a {
+        width: 327px;
+        padding: 23px 0 22px 0;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .index-about ul li p {
+        font-size: 17px;
+        line-height: 34px;
+    }
+
+    .index-about ul li h2 {
+        font-size: 52px;
+        line-height: 45px;
+        letter-spacing: 0.8px;
+        margin-bottom: 20px;
+    }
+
+    .index-friendly ul li h2 {
+        font-size: 52px;
+        line-height: 45px;
+        letter-spacing: 1.1px;
+    }
+
+    .index-friendly ul li h4 {
+        font-size: 26px;
+        line-height: 45px;
+        letter-spacing: 1.5px;
+    }
+
+    .index-friendly .icon i {
+        font-size: 115px;
+    }
+
+    section.index-portfolio .row {
+        margin: 0;
+    }
+
+    section.index-portfolio figure {
+        margin: 0;
+    }
+
+    section.index-portfolio .row .col-12 {
+        padding: 0;
+    }
+
+    .index-portfolio .indexportfolio-heading h2 {
+        font-size: 52px;
+        line-height: 45px;
+        letter-spacing: 1.4px;
+    }
+
+    .index-portfolio .indexportfolio-heading h5 {
+        font-size: 26px;
+        margin-bottom: 36px;
+        letter-spacing: 2px;
+    }
+
+    section.index-subscription {
+        padding-top: 101px;
+        padding-bottom: 150px;
+    }
+
+    section.index-subscription h2 {
+        font-size: 52px;
+        line-height: 45px;
+        margin-bottom: 21px;
+        letter-spacing: 1.4px;
+    }
+
+    section.index-subscription p {
+        font-size: 17px;
+        line-height: 34px;
+        padding: 0 200px;
+        margin-bottom: 50px;
+    }
+
+    .index-friendly ul:nth-child(3) li:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    footer ul li.col-md-9 a {
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    footer ul li h5_ {
+        font-size: 18px;
+    }
+
+    footer span {
+        font-size: 12px;
+    }
+
+    footer span a {
+        font-size: 12px;
+    }
+
+    section.index-blog ul li p {
+        line-height: 36px;
+    }
+
+    .index-subscription ul li input {
+        height: 55px;
+    }
+
+    .index-subscription ul li button {
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .index-about .container ul li:nth-child(1) {
+        padding: 88px 45px 88px 66px;
+    }
+
+    .index-about .container ul li:nth-child(2) {
+        padding: 88px 66px 88px 46px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+
+    footer .footer-brand {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        padding-top: 75px;
+        padding-bottom: 83px;
+    }
+
+    section.index-portfolio .owl-item:first-child {
+        margin-left: 387px;
+    }
+
+    .index-portfolio .slide ul li {
+        width: 400px;
+        height: 490px;
+    }
+
+    .index-portfolio .slide ul li.list {
+        width: 610px;
+    }
+
+    footer ul li h5 {
+        font-size: 18px;
+    }
+
+    footer ul li.col-md-9 a {
+        font-size: 14px;
+    }
+
+    section.about-page ul li p {
+        font-size: 16px;
+    }
+
+    section.contact-page .contact-title h2 {
+        width: 1410px;
+    }
+
+    section.blog-page p {
+        font-size: 17px;
+    }
+
+    .blog-single ul li figure {
+        height: 950px;
+        margin-bottom: 30px;
+        padding-top: 87px;
+    }
+
+    section.blog-single h3 {
+        font-size: 49px;
+        line-height: 66px;
+    }
+
+    section.blog-single p {
+        line-height: 34px;
+    }
+
+    section.contact-page h6 {
+        font-size: 27px;
+    }
+
+    section.contact-page .contact-page-info h5 {
+        font-size: 26px;
+    }
+
+    section.contact-page span {
+        font-size: 27px;
+    }
+
+    section.contact-page .contact-page-info h4:nth-child(3) {
+        font-size: 26px;
+    }
+
+    section.contact-page .contact-page-info h4 {
+        font-size: 26px;
+    }
+
+    section.contact-page .contact-page-info {
+        padding-left: 100px;
+    }
+
+    section.contact-page input {
+        height: 56px;
+    }
+
+    section.contact-page textarea {
+        height: 201px;
+    }
+
+    section.contact-page .r1 {
+        margin-top: 150px;
+    }
+
+    section.contact-page button {
+        margin-bottom: 150px;
+    }
+
+    section.services-page ul li p {
+        line-height: 36px;
+    }
+
+    section.about-page h2 {
+        font-size: 38px;
+    }
+
+    section.index-portfolio .owl-item {
+        width: 1410px !important;
+    }
+
+    section.portfolio-page div.row {
+        margin-top: 97px;
+        margin-bottom: 107px;
+    }
+
+    section.index-portfolio {
+        padding-top: 167px;
+    }
+    section.blog-single .share-icon {
+        padding: 20px;
+    }
+}
+
+@media(max-width:1440px) {
+    .banner .banner-content h1 {
+        font-size: 47px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+
+    .banner .banner-content h5 {
+        font-size: 24px;
+        margin-bottom: 29px;
+    }
+
+    .banner .banner-content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .banner .banner-content a {
+        width: 327px;
+        padding: 23px 0 22px 0;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .index-about ul li p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .index-about ul li h2 {
+        font-size: 47px;
+        line-height: 45px;
+        letter-spacing: 0.8px;
+    }
+
+    .index-friendly ul li h2 {
+        font-size: 47px;
+        line-height: 45px;
+        letter-spacing: 0.8px;
+    }
+
+    .index-friendly ul li h4 {
+        font-size: 24px;
+        line-height: 45px;
+        letter-spacing: 1px;
+    }
+
+    .index-friendly .icon i {
+        font-size: 115px;
+    }
+
+    section.index-portfolio {
+        padding-top: 118px;
+    }
+
+    section.portfolio-page {
+        padding-top: 167px;
+    }
+
+    .index-portfolio .indexportfolio-heading h2 {
+        font-size: 47px;
+        line-height: 45px;
+    }
+
+    .index-portfolio .indexportfolio-heading h5 {
+        font-size: 24px;
+        margin-bottom: 46px;
+    }
+
+    section.index-subscription {
+        padding-top: 101px;
+        padding-bottom: 150px;
+    }
+
+    section.index-subscription h2 {
+        font-size: 47px;
+        line-height: 45px;
+        margin-bottom: 21px;
+    }
+
+    section.index-subscription p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 0 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:1024px) {
+    .container {
+        max-width: 990px;
+        padding: 0 20px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 34px;
+        margin-bottom: 5px;
+    }
+
+    .banner .banner-content h5 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .banner .banner-content a {
+        width: 260px;
+        padding: 18px 0 17px 0;
+        letter-spacing: 1px;
+        font-size: 12px;
+        margin-bottom: 99px;
+    }
+
+    .banner .banner-content p {
+        margin-bottom: 37px;
+        padding-right: 430px;
+    }
+
+    section.banner {
+        align-items: flex-end;
+        min-height: 500px;
+        padding-top: 182px;
+    }
+
+    .index-about ul li h2 {
+        font-size: 34px;
+    }
+
+    .index-about .container ul li:nth-child(1) {
+        padding: 48px 25px 48px 30px;
+    }
+
+    .index-about .container ul li:nth-child(2) {
+        padding: 48px 30px 48px 26px;
+    }
+
+    .index-about .container figure {
+        left: 40px;
+    }
+
+    .index-friendly ul li h2 {
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .index-friendly ul li h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .index-friendly .icon i {
+        font-size: 95px;
+    }
+
+    .index-friendly .container ul {
+        padding: 50px 0 56px 0;
+    }
+
+    .index-friendly ul:first-child li {
+        vertical-align: bottom;
+    }
+
+    section.index-portfolio {
+        padding-top: 60px;
+    }
+
+    .index-portfolio .indexportfolio-heading h2 {
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .index-portfolio .indexportfolio-heading h5 {
+        font-size: 20px;
+    }
+
+    section.index-portfolio .owl-item {
+        width: 950px !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+
+    .index-portfolio .slide ul li.list {
+        width: 412px;
+    }
+
+    .index-portfolio .slide ul li {
+        width: 269px;
+        height: 285px;
+    }
+
+    section.index-portfolio .owl-item:first-child {
+        margin-left: -690px;
+    }
+
+    section.index-subscription h2 {
+        font-size: 34px;
+    }
+
+    section.index-subscription p {
+        padding: 0 100px;
+    }
+
+    .index-subscription ul li input::placeholder {
+        font-size: 12px;
+    }
+
+    section.index-blog {
+        padding-top: 56px;
+        padding-bottom: 63px;
+    }
+
+    section.index-blog h2 {
+        font-size: 34px;
+        margin: 0;
+        line-height: 36px;
+    }
+
+    section.index-blog h5 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    section.index-blog ul li h6 {
+        font-size: 20px;
+    }
+
+    .scrolltop-btn {
+        height: 40px;
+        width: 40px;
+    }
+
+    .scrolltop-btn .fa {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .index-about .container ul {
+        margin: 0 20px;
+    }
+
+    section.index-blog ul {
+        margin: 0 -15px;
+    }
+
+    section.index-blog ul li {
+        padding: 0 15px;
+    }
+
+    .index-friendly .container {
+        padding: 0 20px;
+    }
+
+    section.about-page ul li figure {
+        margin-bottom: 15px;
+    }
+
+    section.about-page ul li p {
+        margin-bottom: 25px;
+    }
+
+    section.about-page {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+
+    section.services-page h2 {
+        margin-bottom: 20px;
+    }
+
+    section.services-page ul li h4 {
+        margin-bottom: 20px;
+    }
+
+    section.services-page ul:last-child {
+        margin-top: 56px;
+    }
+
+    section.contact-page .contact-title h2 {
+        width: 954px;
+    }
+
+    .blog-single ul li figure {
+        height: 650px;
+        margin-bottom: 20px;
+    }
+
+    section.blog-single h3 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    section.contact-page {
+        padding-top: 140px;
+    }
+
+    section.contact-page .contact-title h2 {
+        font-size: 32px;
+    }
+
+    section.contact-page .contact-title {
+        padding-bottom: 40px;
+    }
+
+    section.blog-single .blogsingle-inner-para {
+        padding: 30px 30px 37px 30px;
+    }
+
+    section.blog-single .blogsingle-inner-para p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    section.blog-single p {
+        font-size: 15px;
+    }
+
+    section.blog-single span {
+        font-size: 15px;
+    }
+
+    section.blog-single .share-icon p {
+        font-size: 15px;
+    }
+
+    section.blog-single .share-icon div.social-icons span {
+        font-size: 15px;
+    }
+
+    section.index-blog {
+        padding-top: 46px;
+        padding-bottom: 53px;
+    }
+
+    section.blog-single {
+        padding-bottom: 20px;
+    }
+
+    section.blog-page h6 {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    section.contact-page .r1 {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width:992px) {
+    .container {
+        width: 970px;
+    }
+
+    section.about-page ul li p {
+        margin-bottom: 20px;
+    }
+
+    section.contact-page button {
+        margin-bottom: 50px;
+    }
+
+    section.contact-page .contact-page-info {
+        padding: 0;
+        margin-bottom: 80px;
+    }
+
+    section.contact-page .r1 {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:970px) {
+    .container {
+        width: 946px;
+    }
+
+    header {
+        min-height: 74px;
+    }
+
+    header .menu-icon {
+        display: block;
+    }
+
+    header nav div.nav-sec {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        background: #272525ed;
+        height: 100%;
+        z-index: 9999999;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s;
+        overflow-y: auto;
+    }
+
+    header #cls-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 60px;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 99999999;
+        transition: all 0.5s;
+    }
+
+    .navbar-nav {
+        padding-top: 100px;
+    }
+
+    .nav-link {
+        padding: 1.5rem 0;
+    }
+
+    section.about-page h2 {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+
+    section.about-page {
+        padding-top: 120px;
+    }
+
+    section.contact-page {
+        padding-top: 115px;
+    }
+
+    section.contact-page .contact-title h2 {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    section.blog-single .share-icon {
+        margin-bottom: 30px;
+    }
+
+    section.contact-page .contact-title {
+        padding-bottom: 35px;
+    }
+
+    section.index-blog ul li figure {
+        margin-bottom: 15px;
+    }
+
+    section.index-blog ul li h6 {
+        font-size: 21px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+
+    section.blog-page p {
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    section.index-blog ul li {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    section.index-subscription p {
+        padding: 0 20px;
+    }
+
+    section.index-portfolio .owl-item {
+        width: 740px !important;
+    }
+
+    .index-portfolio .slide ul li {
+        width: 200px;
+        height: 220px;
+    }
+
+    .index-portfolio .slide ul li.list {
+        width: 340px;
+    }
+
+    .banner .banner-content h5 {
+        font-size: 17px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 28px;
+    }
+
+    .banner .banner-content p {
+        padding-right: 150px;
+    }
+
+    .index-about ul li h2 {
+        font-size: 28px;
+    }
+
+    .index-friendly ul li h2 {
+        font-size: 26px;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .index-friendly ul li h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .index-friendly .icon i {
+        font-size: 86px;
+    }
+
+    .index-portfolio .indexportfolio-heading h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .index-portfolio .indexportfolio-heading h5 {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .scrolltop-btn {
+        right: 40px;
+        bottom: 40px;
+    }
+
+    section.index-subscription h2 {
+        font-size: 28px;
+    }
+
+    .index-subscription ul li button {
+        font-size: 11px;
+    }
+
+    section.index-subscription h2 {
+        margin-bottom: 5px;
+    }
+
+    section.index-subscription p {
+        margin-bottom: 30px;
+    }
+
+    section.index-subscription {
+        padding: 72px 0 87px 0;
+    }
+
+    section.index-blog h2 {
+        font-size: 28px;
+    }
+
+    section.index-blog h5 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    section.index-blog ul li h6 {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    footer ul li h5 {
+        font-size: 12px;
+    }
+
+    footer span {
+        font-size: 9px;
+    }
+
+    footer span a {
+        font-size: 9px;
+    }
+
+    footer ul li.col-md-9 a {
+        font-size: 10px;
+    }
+
+    section.index-blog ul li a:last-child {
+        padding: 5px 0 4px 0;
+        font-size: 13px;
+        min-width: 80px;
+    }
+
+    section.index-blog ul li figure {
+        margin-bottom: 10px;
+    }
+
+    header .container {
+        width: 100%;
+    }
+
+    section.index-portfolio .owl-item:first-child {
+        margin-left: -642px;
+    }
+
+    .index-friendly .icon i {
+        font-size: 80px;
+    }
+
+    section.blog-single .blogsingle-inner-para {
+        width: 100%;
+    }
+
+    .blog-single ul li figure {
+        height: 550px;
+    }
+
+    section.blog-single h3 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    section.blog-single p {
+        margin-bottom: 20px;
+    }
+
+    section.blog-single .share-icon p {
+        font-size: 14px;
+    }
+
+    section.blog-single .share-icon div.social-icons span {
+        font-size: 14px;
+    }
+
+    section.blog-single .share-icon .social-icons a {
+        display: inline-block;
+        min-width: 75px;
+    }
+
+    section.blog-single .blogsingle-inner-para {
+        margin-bottom: 20px;
+    }
+
+    section.blog-single .blogsingle-inner-para p {
+        font-size: 16px;
+    }
+
+    section.blog-single h3 {
+        font-size: 22px;
+    }
+
+    section.blog-single p:nth-child(6) {
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:640px) {
+    section.banner {
+        padding-top: 160px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .banner .banner-content a {
+        width: 230px;
+        padding: 15px 0 14px 0;
+        letter-spacing: 1px;
+        font-size: 10px;
+        margin-bottom: 94px;
+    }
+
+    .index-about .container ul li:nth-child(1) {
+        padding: 48px 25px 0px 30px;
+    }
+
+    .index-about .container ul li:nth-child(2) {
+        padding: 20px 30px 48px 26px;
+    }
+
+    .index-friendly ul li h4 {
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0;
+    }
+
+    .index-friendly .container ul {
+        padding: 30px 0 36px 0;
+    }
+
+    .index-friendly ul li h2 {
+        font-size: 21px;
+    }
+
+    .index-friendly .icon i {
+        font-size: 75px;
+    }
+
+    .index-about ul li h2 {
+        font-size: 24px;
+    }
+
+    .index-portfolio .indexportfolio-heading h2 {
+        font-size: 24px;
+        /* margin: 5px 0; */
+    }
+
+    .index-portfolio .indexportfolio-heading h5 {
+        font-size: 14px;
+    }
+
+    section.index-subscription h2 {
+        font-size: 24px;
+    }
+
+    .index-subscription ul li input {
+        margin-bottom: 30px;
+    }
+
+    .index-subscription ul li button {
+        font-size: 14px;
+    }
+
+    section.index-subscription p {
+        padding: 0;
+    }
+
+    footer {
+        transition: all 0.5s;
+    }
+
+    footer span {
+        font-size: 11px;
+    }
+
+    footer span a {
+        font-size: 11px;
+    }
+
+    footer .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    footer ul li h5 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    footer ul li.col-md-9 a {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    footer ul li h5 i {
+        font-size: 25px !important;
+        transition: all 0.5s;
+    }
+
+    footer ul li h5.in i {
+        transform: rotateZ(-180deg);
+    }
+
+    footer ul li.col-md-9 .footer-nav {
+        display: none;
+    }
+
+    section.index-portfolio .owl-item {
+        width: 600px !important;
+    }
+
+    .index-portfolio .slide ul li {
+        width: 175px;
+        height: 200px;
+    }
+
+    .index-portfolio .slide ul li.list {
+        width: 250px;
+    }
+
+    section.index-portfolio .owl-item:first-child {
+        margin-left: -458px;
+    }
+
+    section.index-blog h2 {
+        font-size: 24px;
+    }
+
+    section.index-blog h5 {
+        font-size: 14px;
+    }
+
+    section.services-page ul li h4 {
+        margin-bottom: 10px;
+    }
+
+    section.blog-single .share-icon {
+        flex-direction: column;
+        padding: 10px 20px 20px;
+    }
+
+    .blog-single ul li figure {
+        height: 450px;
+    }
+
+    section.contact-page .contact-title h2 {
+        padding: 0;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    section.contact-page {
+        padding-top: 100px;
+    }
+
+    section.contact-page .contact-title {
+        padding-bottom: 25px;
+    }
+
+    section.index-blog ul li h6 {
+        font-size: 20px;
+    }
+
+    section.ourblog-page .row {
+        margin-bottom: 10px;
+    }
+
+    section.contact-page h6 {
+        padding: 0;
+    }
+
+    section.contact-page button {
+        min-width: 200px;
+        padding: 12px 10px;
+        font-size: 12px;
+    }
+
+    section.contact-page h6 {
+        font-size: 18px;
+        line-height: 30px;
+        padding-right: 0px;
+        margin-bottom: 26px;
+    }
+
+    section.contact-page .contact-page-info h5 {
+        font-size: 20px;
+    }
+
+    section.contact-page .contact-page-info h4:nth-child(3) {
+        font-size: 22px;
+    }
+
+    section.contact-page .contact-page-info h4 {
+        font-size: 19px;
+    }
+
+    section.portfolio-page button {
+        font-size: 13px;
+        min-width: 130px;
+    }
+}
+
+@media(max-width:425px) {
+    section.banner {
+        text-align: center;
+        padding-top: 140px;
+    }
+
+    .banner .banner-content p {
+        padding: 0;
+        text-align: center;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 22px;
+        padding: 0 31px;
+        margin-bottom: 10px;
+    }
+
+    .banner .banner-content h5 {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .banner .banner-content a {
+        margin-bottom: 74px;
+    }
+
+    .banner .banner-content p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .index-about ul li h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .index-about ul li p {
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .index-friendly .container ul:first-child {
+        text-align: center;
+    }
+
+    .index-friendly .container ul {
+        padding: 36px 15px 36px 15px;
+    }
+
+    .index-friendly .container ul:nth-child(2) {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .index-friendly ul li h2 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+
+    .index-friendly ul li h4 {
+        line-height: 24px;
+    }
+
+    .index-friendly .container ul:nth-child(2) .icon {
+        float: initial;
+        margin: 10px 0;
+    }
+
+    .index-friendly ul:first-child li:nth-child(2) {
+        margin: 10px 0;
+    }
+
+    .index-friendly .container ul:nth-child(3) {
+        text-align: center;
+    }
+
+    .index-friendly .container ul:last-child .icon {
+        float: initial;
+    }
+
+    .index-friendly .container ul:last-child {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    section.index-portfolio {
+        text-align: center;
+    }
+
+    .index-portfolio .indexportfolio-heading h2 {
+        font-size: 22px;
+        margin-bottom: 3px;
+    }
+
+    .index-portfolio .indexportfolio-heading h5 {
+        margin-bottom: 25px;
+    }
+
+    section.index-subscription h2 {
+        font-size: 21px;
+    }
+
+    section.index-subscription p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    section.index-blog {
+        text-align: center;
+    }
+
+    section.index-blog h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+
+    section.index-blog h5 {
+        line-height: 24px;
+    }
+
+    section.index-blog ul li {
+        margin-bottom: 40px;
+    }
+
+    section.index-blog ul li h6 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    section.index-blog {
+        padding-top: 36px;
+        padding-bottom: 43px;
+    }
+
+    section.index-portfolio .owl-item {
+        width: 400px !important;
+    }
+
+    .index-portfolio .slide ul li {
+        width: 133px;
+        height: 170px;
+    }
+
+    .index-portfolio .slide ul li.list {
+        width: 134px;
+    }
+
+    section.index-portfolio .owl-item:first-child {
+        margin-left: -313px;
+    }
+
+    .index-friendly .icon i {
+        font-size: 50px;
+    }
+
+    section.about-page {
+        text-align: center;
+        padding-top: 110px;
+    }
+
+    section.about-page h2 {
+        margin-bottom: 25px;
+    }
+
+    .blog-single ul li figure {
+        height: 350px;
+    }
+
+    section.blog-single .share-icon {
+        padding: 10px 20px;
+    }
+
+    section.blog-single .share-icon .social-icons a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section.index-blog ul li h6 {
+        font-size: 19px;
+    }
+
+    section.blog-single h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    section.index-blog {
+        padding-top: 26px;
+        padding-bottom: 33px;
+    }
+
+    section.blog-page h6 {
+        font-size: 24px;
+    }
+
+    section.contact-page span {
+        display: block;
+        font-size: 17px;
+    }
+}
+
+@media(max-width:375px) {
+    .index-friendly ul li h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+        line-height: 25px;
+    }
+
+    .index-portfolio .indexportfolio-heading h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .index-portfolio .indexportfolio-heading h5 {
+        line-height: 22px;
+    }
+
+    section.index-subscription h2 {
+        font-size: 18px;
+    }
+
+    section.index-blog h2 {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    footer ul li h5 {
+        font-size: 13px;
+    }
+
+    footer ul li.col-md-9 a {
+        font-size: 11px;
+    }
+
+    section.index-portfolio .owl-item {
+        width: 320px !important;
+    }
+
+    .index-portfolio .slide ul li {
+        width: 100px;
+        height: 140px;
+    }
+
+    .index-portfolio .slide ul li.list {
+        width: 120px;
+    }
+
+    section.index-portfolio .owl-item:first-child {
+        margin-left: -125px;
+    }
+
+    .blog-single ul li figure {
+        height: 300px;
+    }
+}
+
+@media(max-width:360px) {
+    .banner .banner-content h1 {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width:320px) {
+    .index-subscription ul li button {
+        font-size: 13px;
+    }
+
+    section.index-subscription h2 {
+        line-height: 30px;
+    }
+
+    .banner .banner-content h1 {
+        padding: 0 10px;
+    }
+
+    .blog-single ul li figure {
+        height: 280px;
+    }
+
+    section.blog-single h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
